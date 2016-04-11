@@ -57,7 +57,7 @@
 					$facebook=get_post_meta($post->ID,'facebook_link',true);
 					$in=get_post_meta($post->ID,'linkedin_link',true);
 			?>
-<div class="mid_side">
+		<div class="mid_side">
             <h2 class="mndtyr"><?php the_time('M d y')?></h2>            
             <div class="mid_cont">
               <h3><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
@@ -68,60 +68,23 @@
                 <li><a href="<?php echo $google;?>"><i class="fa fa-google-plus-square"></i></a></li>
                 <li><a href="<?php echo $facebook;?>"><i class="fa fa-facebook-square"></i></a></li>
                 <li><a href="<?php echo $in;?>"><i class="fa fa-linkedin-square"></i></a></li>
-              </ul>
-              </div>      
-          </div>			  
+              </ul>			  
+              </div> 
+          </div>	  
 		<?php endwhile;?>
+			<div class="col-md-12"> 
+			<div class="mid_side"><div class="navigation"><p><?php posts_nav_link('&#8734;','&laquo;&laquo; PreviesPost','NextPost &raquo;&raquo;'); ?></p></div></div>		
+		</div>	
 		<?php else:?>
 			<h2>404 not found!<h2>
-		<?php endif;?>	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-          
-          <!--<div class="mid_side">
-            <h2 class="mndtyr">March 23, 2016</h2>
-            <div class="mid_cont">
-              <h3><a href="#">POLICE RECRUITMENT: Application Portal has been Unveiled</a></h3>
-              <img src="images/Economythisweek.jpeg" alt="Economythisweek">
-              <p>The Police Service Commission (PSC) has announced that the process of the recruitment of 10,000 police men as directed by President Buhari at the National Security Summit last year has commenced.<br>
-                <br>
-                A statement by the spokesman of Police Service Commission (PSC) Ikechukwu Ani said the Commission had on Tuesday, March 22nd in Abuja unveiled the internet website portal for the recruitment.</p>
-              <a href="#">CONTINUE >> </a> </div>
-            <div class="mid_cont">
-              <h3><a href="#">POLICE RECRUITMENT: Application Portal has been Unveiled</a></h3>
-              <img src="images/Economythisweek.jpeg" alt="Economythisweek">
-              <p>The Police Service Commission (PSC) has announced that the process of the recruitment of 10,000 police men as directed by President Buhari at the National Security Summit last year has commenced.<br>
-                <br>
-                A statement by the spokesman of Police Service Commission (PSC) Ikechukwu Ani said the Commission had on Tuesday, March 22nd in Abuja unveiled the internet website portal for the recruitment.</p>
-              <a href="#">CONTINUE >> </a> </div>
-            <div class="mid_cont">
-              <h3><a href="#">POLICE RECRUITMENT: Application Portal has been Unveiled</a></h3>
-              <img src="images/Economythisweek.jpeg" alt="Economythisweek">
-              <p>The Police Service Commission (PSC) has announced that the process of the recruitment of 10,000 police men as directed by President Buhari at the National Security Summit last year has commenced.<br>
-                <br>
-                A statement by the spokesman of Police Service Commission (PSC) Ikechukwu Ani said the Commission had on Tuesday, March 22nd in Abuja unveiled the internet website portal for the recruitment.</p>
-              <a href="#">CONTINUE >> </a> </div>
-            <div class="mid_cont">
-              <h3><a href="#">POLICE RECRUITMENT: Application Portal has been Unveiled</a></h3>
-              <img src="images/Economythisweek.jpeg" alt="Economythisweek">
-              <p>The Police Service Commission (PSC) has announced that the process of the recruitment of 10,000 police men as directed by President Buhari at the National Security Summit last year has commenced.<br>
-                <br>
-                A statement by the spokesman of Police Service Commission (PSC) Ikechukwu Ani said the Commission had on Tuesday, March 22nd in Abuja unveiled the internet website portal for the recruitment.</p>
-              <a href="#">CONTINUE >> </a> </div>
-          </div>-->
+		<?php endif;?>		
         </div>
+	
+		
+		
+		
+		
+		
         <div class="col-md-3">
           <div class="rght_side">
             <h2 class="mndtyr">POPULAR POSTS >></h2>
