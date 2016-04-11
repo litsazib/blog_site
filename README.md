@@ -1,2 +1,2 @@
 # blog_site
-DJ Victorys Blog Site
+Powered by:CodingAvatar Inc.
