@@ -73,18 +73,20 @@
           </div>	  
 		<?php endwhile;?>
 			<div class="col-md-12"> 
-			<div class="mid_side"><div class="navigation"><p><?php posts_nav_link('&#8734;','&laquo;&laquo; PreviesPost','NextPost &raquo;&raquo;'); ?></p></div></div>		
+			<!--<div class="mid_side"><div class="navigation"><p><?php posts_nav_link('&#8734;','&laquo;&laquo; PreviesPost','NextPost &raquo;&raquo;'); ?></p></div></div>-->
+			<div class="mid_side"><?php echo pagination();?></div>
+		
+
+
+
+
+
+			
 		</div>	
 		<?php else:?>
 			<h2>404 not found!<h2>
 		<?php endif;?>		
         </div>
-	
-		
-		
-		
-		
-		
         <div class="col-md-3">
           <div class="rght_side">
             <h2 class="mndtyr">POPULAR POSTS >></h2>
